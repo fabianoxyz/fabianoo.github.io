@@ -3,7 +3,7 @@
     --dark-yellow: #F9A700;
     --blue: #350B70;
     --purple: #6336A3;
-    --white: #FFFAF4;
+    --white: #ccc;
 }
 
 html {
@@ -167,11 +167,13 @@ b.max-bold {
 }
 
 .intro-section {
-    padding-top: 200px;
+    padding-top: 100px;
     position: relative;
     background-size: cover;
     z-index: 1;
-    background-image: url(./images/cover-1920x1080.jpg);
+    background-color: #ccc;
+    background-image: url(./images/cover.jpg);
+    /* background-image: url(./images/cover-1920x1080.jpg); */
 }
 
 .intro-section:before {
@@ -200,6 +202,7 @@ b.max-bold {
     margin-top: 100px;
     text-align: center;
     background: #fff;
+    height: 150px;
 }
 
 .intro .profile-img {
@@ -264,7 +267,7 @@ b.max-bold {
 }
 
 .tech-area img {
-    width: 100px;
+    width: 50px;
     vertical-align: middle;
 }
 
@@ -353,6 +356,23 @@ b.max-bold {
 .copyright {
     text-align: center;
     padding: 30px 0;
-    color: var(--purple);
+    color: var(--white);
     background: var(--dark-blue);
+}
+
+.about-section {
+    padding-top: 250px;
+}
+
+ul.classic-list {
+    list-style-type: circle;
+    padding-top: 10px;
+    display: block;
+    
+}
+
+ul.classic-list > li {
+    list-style-type: circle;
+    line-height: 30px;
+    display: block;
 }
